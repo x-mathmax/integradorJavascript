@@ -1,0 +1,308 @@
+/*Styles pagina principal*/
+
+* { 
+    margin: 0;
+    padding: 0;
+  
+}
+
+#codoacodo {
+    width: 120px;
+    height: 70px;
+}
+
+.navbar {
+    background-color: #fcba03;
+}
+
+#primeraSeccion {
+    background-image: linear-gradient(rgba(3, 3, 27, 0.171), rgba(17, 17, 15, 0.377)),
+    url("imagenes/ba1.jpg");
+    height: 800px;
+    padding-right: 100px;
+    padding-top: 200px;
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    text-align: right;
+    display: flex;
+    align-items:end;
+    flex-direction: column;
+    
+}
+
+p.descripcion{
+    color: white;
+    width: 500px;
+    text-align: right;
+
+}
+
+h1.tituloPrincipal {
+    color: white;
+}
+
+#segundaSeccion {
+    text-align: center; 
+}
+
+.javascript {
+    background-color: #fcba03;
+    border-radius: 6px;
+    width: 78px;
+    font-weight: bold;
+    float: left;
+    font-size: 14px;
+}
+
+.react {
+    background-color: #1399a8;
+    border-radius: 6px;
+    width: 45px; 
+    color: white;
+    font-weight: bold;
+    float: left;
+    margin-left: 5px;
+    font-size: 14px;
+}
+
+.negocios {
+    background-color: #595959;
+    border-radius: 6px;
+    width: 74px;
+    font-weight: bold;
+    float: left;
+    font-size: 14px;
+    color: white;
+}
+
+.startups {
+    background-color: #d31d1d;
+    border-radius: 6px;
+    width: 72px;
+    font-weight: bold;
+    float: left;
+    font-size: 14px;
+    color: white;
+    margin-left: 5px;
+}
+
+.textoMayuscPeque {
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.textoMayuscGrande {
+    font-size: 30px;
+}
+
+.card-title,
+.card-text {
+    clear: left;
+    text-align: left;
+}
+
+.card-text {
+    font-size: 14px;
+}
+
+#terceraSeccion {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.honolulu {
+
+    height: 100%;
+    width: 102% !important;    
+}
+
+.contenido {
+    height: 500px;
+}
+
+div.p-2{
+    padding: 0px !important;
+}
+
+.gris {
+    margin-left: 15px;
+    color: white;
+}
+
+h2.gris {
+    margin-top: 10px;
+}
+
+.dotted {
+    border-bottom:2px dotted;
+    text-decoration:none;
+}
+
+.textos {
+    text-align: center; 
+}
+
+.boton {
+    width: 100%;
+    height: 3rem;
+    background-color: rgb(140, 208, 73);
+    border-style: none;
+    border-radius: 0.4rem;
+    color: white;
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+
+#inputAddress {
+    font-size: 1.3rem;
+    height: 8rem; 
+    box-sizing: border-box; 
+}
+
+input::placeholder {
+    position: absolute;
+    top: 6px;
+    left: 10px;
+  }
+  
+
+.divGrande {
+    height: 8rem; 
+}
+
+.grisado {
+    color: #707070;
+    margin-top: 0rem;
+    margin-bottom: 0.2rem;
+    padding: 0rem;
+}
+
+.btnFooter {
+    width: 100px;
+    height: 100px;
+    border-style: none;
+    color: white;
+}
+
+#centrado {
+    display: flex;
+    justify-content: space-around;
+    margin: 0rem 7rem;
+
+}
+
+footer {
+    padding: 0% !important;
+
+}
+
+.navBlanco {
+    color: white !important;
+} 
+
+.navGris {
+    color: #595959 !important;
+}
+
+.navVerde {
+    color: #198754 !important;
+}
+
+.navTitulo {
+    color: white !important; 
+    font-size: 1.6rem !important;
+}
+
+/*Styles pagina para comprar tickets*/
+
+#perfiles {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.card-text,
+.card-title {
+    text-align: center;
+}
+
+.card-body {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+#estudiante {
+    border-color: blue;
+    border-radius: 0;
+}
+
+#trainee {
+    border-color: rgb(1, 85, 1);
+    border-radius: 0;
+}
+
+#junior {
+    border-color: rgb(222, 222, 9);
+    border-radius: 0;
+}
+
+.prueba {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.size {
+    width: 49.5%;
+}
+
+#inputCeleste {
+    background-color:#bbd7fa;
+    color: #1f467a;
+    font-size: 1.2rem;
+    height: 4rem;
+    border-color: #accffc;
+}
+
+.botonForm {
+    width: 100%;
+    height: 3rem;
+    border-radius: 0.3rem;
+    border-color: rgb(143, 211, 75);
+    background-color: rgb(140, 208, 73);
+    color: white;
+    font-size: 1.2rem;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.btn a {
+    text-decoration: none; 
+    color: #ffffff; 
+  }
+
+/*Media queries*/
+
+@media (max-width: 800px) {
+    #centrado {
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: 0rem;
+    }
+    .btnFooter {
+        width: 95px;
+        height: 80px;
+    }
+
+    #primeraSeccion {
+        padding-right: 1rem;
+    }
+
+    p.descripcion {
+        width: 300px;
+    }
+
+    .contenido {
+        margin-top: -1rem !important;
+    }
+
+}
